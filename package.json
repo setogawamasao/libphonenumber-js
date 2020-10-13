@@ -16,7 +16,7 @@
     "react-scripts": "3.4.3",
     "typescript": "~3.7.2"
   },
-  "homepage": "https://setogawamasao.github.io/libphonenumber-js",
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && mv build docs",
