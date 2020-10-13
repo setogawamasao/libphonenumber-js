@@ -10,41 +10,41 @@ const TelTest = () => {
 	useEffect(() => {
 		const phoneNumber1 = new AsYouType('JP').input(TelInput1) || "";
 		const parsedPhoneNumber1 = parsePhoneNumber(phoneNumber1,'JP');
+		let tempText1 =  "";
 
 		if (parsedPhoneNumber1) {
 			if(parsedPhoneNumber1.isValid()){
-				let temptext =  "";
-				temptext += `入力：${TelInput1}\n`;
-				temptext += `フォーマット:${phoneNumber1}\n`;
-				temptext += `国際規格(ITU-T)：${parsedPhoneNumber1.number}\n`;
-				temptext += `国：${parsedPhoneNumber1.country}\n`;
-				setTelOutput1(temptext);
+				tempText1 += `入力：${TelInput1}\n`;
+				tempText1 += `フォーマット:${phoneNumber1}\n`;
+				tempText1 += `国際規格(ITU-T)：${parsedPhoneNumber1.number}\n`;
+				tempText1 += `国：${parsedPhoneNumber1.country}\n`;
+				setTelOutput1(tempText1);
 			}else{
-				let temptext = "Error";
-				setTelOutput1(temptext);
+				tempText1 = "Error";
+				setTelOutput1(tempText1);
 			}
 		}else{
-			let temptext =  "no input";
-			setTelOutput1(temptext);
+			tempText1 =  "no input";
+			setTelOutput1(tempText1);
 		}
 	
 		const phoneNumber2 = new AsYouType().input(TelInput2) || "";
 		const parsedPhoneNumber2 = parsePhoneNumber(phoneNumber2);
+		let tempText2 =  "";
 		if (parsedPhoneNumber2) {
 			if(parsedPhoneNumber2.isValid()){
-				let temptext =  "";
-				temptext += `入力：${TelInput2}\n`;
-				temptext += `フォーマット:${phoneNumber2}\n`;
-				temptext += `国際規格(ITU-T)：${parsedPhoneNumber2.number}\n`;
-				temptext += `国：${parsedPhoneNumber2.country}\n`;
-				setTelOutput2(temptext);
+				tempText2 += `入力：${TelInput2}\n`;
+				tempText2 += `フォーマット:${phoneNumber2}\n`;
+				tempText2 += `国際規格(ITU-T)：${parsedPhoneNumber2.number}\n`;
+				tempText2 += `国：${parsedPhoneNumber2.country}\n`;
+				setTelOutput2(tempText2);
 			}else{
-				let temptext =  "Error";
-				setTelOutput2(temptext);
+				tempText2 =  "Error";
+				setTelOutput2(tempText2);
 			}
 		}else{
-			var temptext =  "no input";
-			setTelOutput2(temptext);
+			tempText2 =  "no input";
+			setTelOutput2(tempText2);
 		}
 	
 
