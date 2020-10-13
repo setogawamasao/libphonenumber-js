@@ -19,11 +19,11 @@ const TelTest = () => {
 				tempText1 += `国：${parsedPhoneNumber1.country}\n`;
 				setTelOutput1(tempText1);
 			}else{
-				tempText1 = "Error";
+				tempText1 = "valid faild";
 				setTelOutput1(tempText1);
 			}
 		}else{
-			tempText1 =  "no input";
+			tempText1 =  "parse faild";
 			setTelOutput1(tempText1);
 		}
 	
@@ -37,11 +37,11 @@ const TelTest = () => {
 				tempText2 += `国：${parsedPhoneNumber2.country}\n`;
 				setTelOutput2(tempText2);
 			}else{
-				tempText2 =  "Error";
+				tempText2 =  "valid faild";
 				setTelOutput2(tempText2);
 			}
 		}else{
-			tempText2 =  "no input";
+			tempText2 =  "parse faild";
 			setTelOutput2(tempText2);
 		}
 	
