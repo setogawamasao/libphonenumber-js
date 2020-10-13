@@ -1,6 +1,6 @@
 ## libphonenumber-js
 
-![DEMO](https://setogawamasao.github.io/libphonenumber-js/)
+[DEMO](https://setogawamasao.github.io/libphonenumber-js/)
 
 ![DEMO GIF](./gif/demo.gif)
 
