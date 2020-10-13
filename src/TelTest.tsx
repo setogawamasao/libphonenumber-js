@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import parsePhoneNumber ,{ AsYouType, parsePhoneNumberFromString } from 'libphonenumber-js'
+import parsePhoneNumber ,{ AsYouType } from 'libphonenumber-js'
 
 const TelTest = () => {
 	const [TelInput1, setTelInput1] = useState("09012345678");
@@ -19,11 +19,11 @@ const TelTest = () => {
 				tempText1 += `国：${parsedPhoneNumber1.country}\n`;
 				setTelOutput1(tempText1);
 			}else{
-				tempText1 = "valid faild";
+				tempText1 = "valid failed";
 				setTelOutput1(tempText1);
 			}
 		}else{
-			tempText1 =  "parse faild";
+			tempText1 =  "parse failed";
 			setTelOutput1(tempText1);
 		}
 	
@@ -37,11 +37,11 @@ const TelTest = () => {
 				tempText2 += `国：${parsedPhoneNumber2.country}\n`;
 				setTelOutput2(tempText2);
 			}else{
-				tempText2 =  "valid faild";
+				tempText2 =  "valid failed";
 				setTelOutput2(tempText2);
 			}
 		}else{
-			tempText2 =  "parse faild";
+			tempText2 =  "parse failed";
 			setTelOutput2(tempText2);
 		}
 	
