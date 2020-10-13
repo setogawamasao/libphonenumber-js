@@ -14,7 +14,6 @@ const TelTest = () => {
 
 		if (parsedPhoneNumber1) {
 			if(parsedPhoneNumber1.isValid()){
-				tempText1 += `入力：${TelInput1}\n`;
 				tempText1 += `フォーマット:${phoneNumber1}\n`;
 				tempText1 += `国際規格(ITU-T)：${parsedPhoneNumber1.number}\n`;
 				tempText1 += `国：${parsedPhoneNumber1.country}\n`;
@@ -33,7 +32,6 @@ const TelTest = () => {
 		let tempText2 =  "";
 		if (parsedPhoneNumber2) {
 			if(parsedPhoneNumber2.isValid()){
-				tempText2 += `入力：${TelInput2}\n`;
 				tempText2 += `フォーマット:${phoneNumber2}\n`;
 				tempText2 += `国際規格(ITU-T)：${parsedPhoneNumber2.number}\n`;
 				tempText2 += `国：${parsedPhoneNumber2.country}\n`;
