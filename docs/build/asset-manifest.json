@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/libphonenumber-js/static/css/main.df986ec7.chunk.css",
+    "main.js": "/libphonenumber-js/static/js/main.17d43432.chunk.js",
+    "main.js.map": "/libphonenumber-js/static/js/main.17d43432.chunk.js.map",
+    "runtime-main.js": "/libphonenumber-js/static/js/runtime-main.3f1a6e4e.js",
+    "runtime-main.js.map": "/libphonenumber-js/static/js/runtime-main.3f1a6e4e.js.map",
+    "static/js/2.01ed1ee3.chunk.js": "/libphonenumber-js/static/js/2.01ed1ee3.chunk.js",
+    "static/js/2.01ed1ee3.chunk.js.map": "/libphonenumber-js/static/js/2.01ed1ee3.chunk.js.map",
+    "index.html": "/libphonenumber-js/index.html",
+    "precache-manifest.52e7f75c925e1557788a62a9c23fd1ff.js": "/libphonenumber-js/precache-manifest.52e7f75c925e1557788a62a9c23fd1ff.js",
+    "service-worker.js": "/libphonenumber-js/service-worker.js",
+    "static/css/main.df986ec7.chunk.css.map": "/libphonenumber-js/static/css/main.df986ec7.chunk.css.map",
+    "static/js/2.01ed1ee3.chunk.js.LICENSE.txt": "/libphonenumber-js/static/js/2.01ed1ee3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f1a6e4e.js",
+    "static/js/2.01ed1ee3.chunk.js",
+    "static/css/main.df986ec7.chunk.css",
+    "static/js/main.17d43432.chunk.js"
+  ]
+}
