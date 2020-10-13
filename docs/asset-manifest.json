@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/setogawamasao/libphonenumber-js/static/css/main.df986ec7.chunk.css",
+    "main.js": "/setogawamasao/libphonenumber-js/static/js/main.17d43432.chunk.js",
+    "main.js.map": "/setogawamasao/libphonenumber-js/static/js/main.17d43432.chunk.js.map",
+    "runtime-main.js": "/setogawamasao/libphonenumber-js/static/js/runtime-main.b575fb4d.js",
+    "runtime-main.js.map": "/setogawamasao/libphonenumber-js/static/js/runtime-main.b575fb4d.js.map",
+    "static/js/2.01ed1ee3.chunk.js": "/setogawamasao/libphonenumber-js/static/js/2.01ed1ee3.chunk.js",
+    "static/js/2.01ed1ee3.chunk.js.map": "/setogawamasao/libphonenumber-js/static/js/2.01ed1ee3.chunk.js.map",
+    "index.html": "/setogawamasao/libphonenumber-js/index.html",
+    "precache-manifest.0381ef16e431bd7aa6732e3e7b8a49f7.js": "/setogawamasao/libphonenumber-js/precache-manifest.0381ef16e431bd7aa6732e3e7b8a49f7.js",
+    "service-worker.js": "/setogawamasao/libphonenumber-js/service-worker.js",
+    "static/css/main.df986ec7.chunk.css.map": "/setogawamasao/libphonenumber-js/static/css/main.df986ec7.chunk.css.map",
+    "static/js/2.01ed1ee3.chunk.js.LICENSE.txt": "/setogawamasao/libphonenumber-js/static/js/2.01ed1ee3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b575fb4d.js",
+    "static/js/2.01ed1ee3.chunk.js",
+    "static/css/main.df986ec7.chunk.css",
+    "static/js/main.17d43432.chunk.js"
+  ]
+}
